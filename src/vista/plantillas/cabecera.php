@@ -26,6 +26,9 @@
           <li class="nav-item">
             <a class="nav-link" href="index.php?controlador=entrada&accion=nuevo">Crear entrada</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.php?controlador=busqueda&accion=busca">Buscar Usuarios</a>
+          </li>
           </ul>
           <div class='d-flex me-2 my-2'>
             <img class="rounded float-start me-2" width="32px" src="{$sesion->getAvatar()}">
